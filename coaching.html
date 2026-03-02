@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coaching - L-As Nutrition</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    .intro {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .coaching-packages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    .package {
+      border: 1px solid #ddd;
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    
+    .package:hover {
+      transform: translateY(-5px);
+    }
+    
+    .package h3 {
+      color: #27ae60;
+      margin-bottom: 1rem;
+    }
+    
+    .price {
+      font-size: 1.8rem;
+      color: #27ae60;
+      margin: 1rem 0;
+      font-weight: bold;
+    }
+    
+    .features {
+      text-align: left;
+      margin: 1.5rem 0;
+    }
+    
+    .features li {
+      margin-bottom: 0.5rem;
+    }
+    
+    button {
+      background-color: #27ae60;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    
+    button:hover {
+      background-color: #229954;
+    }
+    
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Nutrition Coaching</a></h1>
+    <p>Transform Your Health with Professional Guidance</p>
+  </header>
+  <button><a href="index.html">HOME PAGE</a></button>
+  <div class="container">
+    <div class="intro">
+      <h2>Our Coaching Programs</h2>
+      <p>Get personalized nutrition coaching tailored to your goals and lifestyle.</p>
+    </div>
+    
+    <div class="coaching-packages">
+      <div class="package">
+        <h3>Starter</h3>
+        <p class="price">$99/month</p>
+        <ul class="features">
+          <li>✓ Monthly meal plans</li>
+          <li>✓ Email support</li>
+          <li>✓ Progress tracking</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+      
+      <div class="package">
+        <h3>Professional</h3>
+        <p class="price">$199/month</p>
+        <ul class="features">
+          <li>✓ Weekly meal plans</li>
+          <li>✓ Bi-weekly check-ins</li>
+          <li>✓ Detailed analysis</li>
+          <li>✓ Recipe recommendations</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+      
+      <div class="package">
+        <h3>Premium</h3>
+        <p class="price">$299/month</p>
+        <ul class="features">
+          <li>✓ Daily meal planning</li>
+          <li>✓ Weekly 1-on-1 calls</li>
+          <li>✓ Custom supplement plan</li>
+          <li>✓ Priority support</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2024 L-As Nutrition. All rights reserved.</p>
+  </footer>
+</body>
+</html>

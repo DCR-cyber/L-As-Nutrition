@@ -1,0 +1,46 @@
+/* components.css 
+Boutons, menu hover, cartes,
+éléments réutilisables*/
+
+/* MENU LINKS */
+.menu a {
+  position: relative;
+  padding-bottom: 0.4rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--sage);
+  transition: width 0.25s ease;
+}
+
+.menu a:hover::after,
+.menu a.active::after {
+  width: 100%;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 0.9rem 2rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-primary {
+  background: var(--sage);
+  color: white;
+}
+
+.btn-outline {
+  border: 1.5px solid var(--dark);
+  color: var(--dark);
+}

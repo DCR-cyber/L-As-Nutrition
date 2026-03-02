@@ -1,0 +1,10 @@
+/* variables.css 
+Centralise les couleurs (important)*/
+
+:root {
+  --sage: #6b8f71;
+  --sage-light: #abcab7;
+  --cream: #f7f3eb;
+  --dark: #322;
+  --text: #444;
+}

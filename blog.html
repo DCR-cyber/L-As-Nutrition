@@ -2,16 +2,18 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>L'As Nutrition</title>
+  <title>Blog - L'As Nutrition</title>
+
+  <!-- GLOBAL CSS -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/pages/index.css">
-</head>
 
+  <!-- BLOG CSS -->
+  <link rel="stylesheet" href="css/pages/blog.css">
+</head>
 <body>
 
 <!-- HEADER -->
@@ -30,46 +32,49 @@
   </div>
 </header>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-inner">
+<main class="blog-page">
 
-    <!-- LEFT -->
-    <div class="hero-text">
-      <h1>
-        Votre voyage vers<br>
-        un <span>équilibre</span><br>
-        naturel
-      </h1>
+  <!-- HERO -->
+  <section class="page-hero">
+    <h1>Blog</h1>
+    <p>Nutrition holistique, plantes médicinales & rituels du quotidien</p>
+  </section>
 
-      <p>
-        Salut, je suis votre guide vers une vie plus saine.
-        Ma mission est de vous accompagner vers le bien-être
-        par la nutrition holistique et la conscience de soi.
-      </p>
+  <!-- FILTERS -->
+  <section class="blog-filters">
+    <button class="active">Tous</button>
+    <button>Nutrition</button>
+    <button>Plantes</button>
+    <button>Recettes</button>
+    <button>Expériences</button>
+  </section>
 
-      <div class="hero-buttons">
-        <a href="#" class="btn-mes-services">Mes Services</a>
-        <a href="#" class="btn-la-boutique">La Boutique</a>
+  <!-- GRID -->
+  <section class="blog-grid">
+
+    <article class="blog-card">
+      <img src="assets/images/blog1.jpg" alt="">
+      <div class="blog-content">
+        <span class="blog-category">Plantes</span>
+        <h2>Les plantes sacrées pour l’équilibre intérieur</h2>
+        <p>Découvrir comment les plantes soutiennent le corps et l’âme au quotidien.</p>
+        <a href="#">Lire la suite →</a>
       </div>
+    </article>
 
-      <!-- QUOTE -->
-      <div class="quote">
-        <div class="quote-line"></div>
-        <p>
-          « Bienvenue à La Maison Djoumessi ,
-          un espace de bien-être, de conscience et d'équilibre. »
-        </p>
+    <article class="blog-card">
+      <img src="assets/images/blog2.jpg" alt="">
+      <div class="blog-content">
+        <span class="blog-category">Nutrition</span>
+        <h2>Manger selon les saisons</h2>
+        <p>Adapter son alimentation aux cycles naturels pour plus de vitalité.</p>
+        <a href="#">Lire la suite →</a>
       </div>
-    </div>
+    </article>
 
-    <!-- RIGHT -->
-    <div class="hero-image">
-      <img src="images/image1.png" alt="Nutrition coach">
-    </div>
+  </section>
 
-  </div>
-</section>
+</main>
 
 <!-- FOOTER -->
 <footer class="footer">
